@@ -20,14 +20,14 @@ This addon uses a certain structure for the backend.
 # File Structure
 
 `
-  date: string(xx/xx/xxxx),
+  { date: string(xx/xx/xxxx),
   mime: string,
   hash: string(prefix 'dir_' for directories and 'file_' for files,
   phash: string(hash of parent directory),
   name: string,
   size: number,
   tmb: string(url),
-  read: number, write: number, rm: number,
+  read: number, write: number, rm: number }
 `
 
 Look at the example nodejs server for more information.
