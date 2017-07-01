@@ -1,0 +1,1 @@
+export { default } from 'ember-file-manager/components/delete-confirmation';
